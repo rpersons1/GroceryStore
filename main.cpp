@@ -25,7 +25,7 @@ int main()
       }
       if(numItems == 5)
       {
-      cout<<"You'll need a bigger list!\n";
+      cout<<"You'll need a bigger list!";
       }
 
   }while(input != 'Q' && input != 'q');

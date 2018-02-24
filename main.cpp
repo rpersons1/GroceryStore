@@ -22,10 +22,10 @@ int main()
       cout<<"What is the item?\n";
       cin>>item;
       numItems += 1;
-      }
-      if(numItems == 5)
-      {
-      cout<<"You'll need a bigger list!";
+        if(numItems == 5)
+        {
+        cout<<"You'll need a bigger list!";
+        }
       }
 
   }while(input != 'Q' && input != 'q');

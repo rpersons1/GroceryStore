@@ -21,10 +21,14 @@ int main()
       {
       cout<<"What is the item?\n";
       cin>>item;
-      numItems += 1;
-        if(numItems == 5)
+        if(numItems >= 5)
         {
-        cout<<"You'll need a bigger list!";
+        cout<<"You'll need a bigger list!\n";
+        }
+        else
+        {
+        list[numItems]= item;
+        numItems++;
         }
       }
 

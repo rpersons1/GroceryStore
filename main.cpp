@@ -21,7 +21,7 @@ int main()
       {
       cout<<"What is the item?\n";
       cin>>item;
-        if(numItems >= 5)
+        if(numItems >= 4)
         {
         cout<<"You'll need a bigger list!\n";
         }
@@ -33,7 +33,11 @@ int main()
       }
 
   }while(input != 'Q' && input != 'q');
-  
 
+  for(int x = 0; x< 5; x++)
+    {
+    cout<<numItems<<" "<<item<<endl;
+    }
+  
   return 0;
 }

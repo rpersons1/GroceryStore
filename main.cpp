@@ -33,10 +33,15 @@ int main()
       }
 
   }while(input != 'Q' && input != 'q');
+  
+   cout<<"==ITEMS TO BUY==\n";
 
-  for(int x = 0; x< 5; x++)
+  for(int x = 0; x <= 4; x++)
     {
-    cout<<numItems<<" "<<item<<endl;
+    int y = 1;
+    y += x;
+    cout<<y;
+    cout<<" "<<list[x]<<endl;
     }
   
   return 0;
